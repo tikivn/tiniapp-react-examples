@@ -1,0 +1,21 @@
+{
+  "name": "tiniapp-react-todo-demo",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Wei Zhu <yesmeck@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "remax build -t tiniapp -w",
+    "build": "remax build -t tiniapp"
+  },
+  "dependencies": {
+    "clsx": "^1.0.4",
+    "react": "^16.8.6",
+    "react-redux": "^7.1.3",
+    "redux": "^4.0.4",
+    "@tiki-miniapp/remax": "2.15.21"
+  }
+}
